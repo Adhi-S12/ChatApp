@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
-import chatAppFooter from '../public/assets/chatappFooter.svg';
+import chatAppFooter from '../public/assets/chatappfooter.svg';
 import Image from 'next/image';
 
 const footerdata = [
@@ -33,7 +33,7 @@ const Footerblock = ({ title, body, titleImage = false }) => {
 		<div className={styles.footerBlock}>
 			{titleImage ? (
 				<div className={styles.footerHeadImage}>
-					<Image src={title} />
+					<Image src={title} alt="footer logo" />
 				</div>
 			) : (
 				<h4 className={styles.footerHeadTitle}>{title}</h4>

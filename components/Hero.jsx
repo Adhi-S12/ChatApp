@@ -25,6 +25,7 @@ const Hero = () => {
 					<Image
 						src={HeroImage}
 						className={styles.heroImage}
+						alt="Hero Image"
 						// width={591} height={575}
 					/>
 				</div>

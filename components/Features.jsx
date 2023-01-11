@@ -16,7 +16,11 @@ const Features = () => {
 					consequat massa
 				</p>
 				<div className={styles.imgContainer}>
-					<Image src={FeaturesImage} className={styles.featureImg} />
+					<Image
+						src={FeaturesImage}
+						className={styles.featureImg}
+						alt="Explaining Features Image"
+					/>
 				</div>
 			</div>
 		</section>

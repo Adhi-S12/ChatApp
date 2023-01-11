@@ -10,7 +10,11 @@ const CTA = () => {
 			<div className={`container ${styles.ctasplit}`}>
 				<div className={styles.leftBlock}>
 					<div className="imgContainer">
-						<Image src={ctaImg} className={styles.ctaimage} />
+						<Image
+							src={ctaImg}
+							className={styles.ctaimage}
+							alt="Decorative Image"
+						/>
 					</div>
 				</div>
 				<div className={styles.rightBlock}>
