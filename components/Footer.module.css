@@ -1,0 +1,42 @@
+.footerContainer {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 50px;
+}
+
+.footerBlock {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.footerHeadTitle {
+	font-size: 18px;
+	letter-spacing: -2%;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+.footerBodyContent {
+	font-size: 13px;
+	letter-spacing: -3%;
+	line-height: 24px;
+	color: rgba(50, 60, 69, 0.7);
+	margin-bottom: 15px;
+}
+
+@media screen and (max-width: 700px) {
+	.footerBlock {
+		gap: 14px;
+	}
+
+	.footerHeadTitle {
+		font-size: 16px;
+	}
+
+	.footerBodyContent {
+	}
+}
